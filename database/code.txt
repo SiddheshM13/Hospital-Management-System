@@ -1,0 +1,4 @@
+select * from doc;
+select * from pat;
+create table PAT(patientno numeric(40), name varchar(50),address varchar(50),contact varchar(50), bloodgroup varchar(50), history varchar(50), dob varchar(50), current varchar(50),roomno varchar(50), dateadd varchar(50), rtype varchar(50), gender varchar(50), docname varchar(50));
+create table DOC(did numeric(20), name varchar(50), contact varchar(50), specialization varchar(50), workfrom varchar(10), workto varchar(10));
